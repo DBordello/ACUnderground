@@ -71,7 +71,5 @@ ACU = ACUnderground('aculink email', 'aculink password', 'WUnderground Station',
 ACU.Authenticate()
 while 1:
 	Data = ACU.GetReadings()
-	#print Data
-	ACU.WriteJSON(Data)
 	ACU.WUUpload(Data)
 	time.sleep(5)
