@@ -72,4 +72,4 @@ ACU.Authenticate()
 while 1:
 	Data = ACU.GetReadings()
 	ACU.WUUpload(Data)
-	time.sleep(18)
+	time.sleep(17)
